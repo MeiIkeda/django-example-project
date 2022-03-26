@@ -53,7 +53,7 @@ http://localhost:8000/admin/
 
 ### 3.APIをHTTPリクエストで確認
 3-1.アルコール飲料を登録するAPI 
-関数のパス：myapp/view.py/saveProducts(name, product_type, manufacturer, degree, price)
+関数のパス：myapp/view.py/saveProducts(name, product_type, manufacturer, degree, price)  
 ・リクエスト例
 ```
 POST http://localhost:8000/myapp/save_products/
